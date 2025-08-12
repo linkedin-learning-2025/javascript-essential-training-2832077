@@ -20,3 +20,14 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+const hiking_shoes = {
+  name: "",
+  size: 36,
+  strip: function (lacesStatus) {
+    this.withLaces = lacesStatus;
+  },
+};
+
+console.log("this backpack object: ", backpack);
+console.log(hiking_shoes);
